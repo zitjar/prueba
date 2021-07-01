@@ -29,7 +29,7 @@ const feriado=[{
     }
 ]
 //obtencion de la fecha Actua
-const fecha = new Date();
+const fecha = new Date('1/7/2021');//se puede cambiar la fecha agregando dentro de Date la fecha elegida ejemplo(M/d/yyyy)
 //meter fecha en variable para poder sacar solamente los dias Habiles
 let cobro = fecha;
 console.log(cobro);
